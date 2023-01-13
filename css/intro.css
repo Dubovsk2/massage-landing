@@ -1,0 +1,14 @@
+.intro {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed, scroll;
+  min-height: 570px;
+  color: white;
+}
+
+
+.logo {
+  filter: opacity(1) drop-shadow(0 0 0 white);
+  height: 150px;
+}

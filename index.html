@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/button.css">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/advantages.css">
+    <link rel="stylesheet" href="css/need-massage.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/order.css">
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf-8" src="parallax/parallax.min.js"></script>
+    <title>Gentle touch</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="container">
+          <img src="logo.png" alt="logo">
+          <div class="navigation">
+            <ul>
+              <li class="nav-item">
+                <a href="#main" class="text-med">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="text-med">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a href="#reviews" class="text-med">Отзывы</a>
+              </li>
+              <li class="nav-item">
+                <a href="#buy" class="text-med">Записаться</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="intro" id="main" data-parallax="scroll" data-image-src="bg.jpg">
+        <div class="container">
+          <img src="massage.png" alt="[massage]" class="logo buffer-top-large">
+          <h1 class="header-large buffer-top shadow">GentleTouch</h1>
+          <h2 class="header-medium shadow">Massage & SPA</h2>
+          <p class="text-med shadow">Коррекция фигуры, массаж лица, расслабляющие SPA</p>
+          <a href="#form" class="button buffer-both-large">Записаться</a>
+        </div>
+      </div>
+      <div class="advantages center">
+        <div class="container">
+          <h1 class="header-medium buffer-bottom">Почему именно мы</h1>
+          <div class="column1-5 buffer-bottom">
+            <div class="advantage">
+              <img src="icons/1.png" alt="[massage pic]" class="logo">
+              <h2>Опытные массажисты</h2>
+              <p>Сотрудники с профильным образованием и опытом работы, регулярно расширяют свои компетенции, оттачивают старые и осваивают новые техники</p>
+            </div>
+          </div>
+          <div class="column1-5 buffer-bottom">
+            <div class="advantage">
+                <img src="icons/2.png" alt="[massage pic]" class="logo">
+                <h2>Натуральная продукция</h2>
+                <p>В работе мы используем только натуральные масла и кремы</p>
+            </div>
+          </div>
+          <div class="column1-5 buffer-bottom">
+            <div class="advantage">
+              <img src="icons/3.png" alt="[massage pic]" class="logo">
+              <h2>Индивидуальный подход</h2>
+              <p>Мы всеми силами стараемся помогать нашим пациентам, ищем индивидуальный подход к каждому</p>
+            </div>
+          </div>
+          <div class="column1-5 buffer-bottom">
+            <div class="advantage">
+              <img src="icons/4.png" alt="[massage pic]" class="logo">
+              <h2>Стирильность</h2>
+              <p>Регулярно проводим санитарную обработку помещений и оборудования</p>
+            </div>
+          </div>
+          <div class="column1-5 buffer-bottom-large">
+            <div class="advantage">
+              <img src="icons/5.png" alt="[massage pic]" class="logo">
+              <h2>Комфорт</h2>
+              <p>Даже после лимфодренажного массажа вы не обнаружите синяков</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="need-massage center">
+        <div class="container">
+          <h1 class="header-medium buffer-bottom">Вам просто необходим массаж, если</h1>
+          <div class="column1-2 buffer-both">
+            <p class="text-med">Хотите избавиться от следов усталости, напряжения, устали от бессоницы</p>
+          </div>
+          <div class="column1-2 buffer-both">
+            <p class="text-med">Мечтаете сделать кожу более упругой, убрать первые морщинки</p>
+          </div>
+          <div class="column1-2 buffer-both">
+            <p class="text-med">Перепробовали все способы снижения веса и все безрезультатно</p>
+          </div>
+          <div class="column1-2 buffer-both">
+            <p class="text-med">Хотите улучшить внешний вид и оздоровить организм</p>
+          </div>
+          <div class="column1-2 buffer-both">
+            <p class="text-med">Желаете снять мышечные боли, в том числе после тренировок</p>
+          </div>
+          <div class="column1-2 buffer-both">
+            <p class="text-med">Хотите сделать более "четкие" контуры фигуры</p>
+          </div>
+        </div>
+        <a href="#form" class="button buffer-top-large buffer-bottom">Записаться</a>
+      </div>
+      <div class="services center" id="services">
+        <div class="container">
+          <h1 class="header-medium buffer-bottom">Наши услуги</h1>
+          <div class="column1-3 buffer-bottom">
+            <div class="service">
+              <img src="services/classic.jpg" alt="[classic massage]">
+              <p class="text-med">Классический массаж</p>
+            </div>
+          </div>
+          <div class="column1-3 buffer-bottom">
+            <div class="service">
+              <img src="services/honey.jpg" alt="[honey massage]">
+              <p class="text-med">Медовый массаж</p>
+            </div>
+          </div>
+          <div class="column1-3 buffer-bottom">
+            <div class="service">
+              <img src="services/thai.jpg" alt="[thai massage]">
+              <p class="text-med">Тайский массаж</p>
+            </div>
+          </div>
+          <div class="column1-3 buffer-bottom">
+            <div class="service">
+              <img src="services/anti-cellulite.jpg" alt="[anti-cellulite massage]">
+              <p class="text-med">Антицеллюлитный массаж</p>
+            </div>
+          </div>
+          <div class="column1-3 buffer-bottom">
+            <div class="service">
+              <img src="services/medical.jpg" alt="[medical massage]">
+              <p class="text-med">Лечебный массаж</p>
+            </div>
+          </div>
+          <div class="column1-3 buffer-bottom">
+            <div class="service">
+              <img src="services/stone.png" alt="[stone massage]">
+              <p class="text-med">Массаж камнями</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews" id="reviews">
+        <div class="container center">
+          <h1 class="header-medium buffer-bottom">Отзывы о нас</h1>
+          <div class="column1-3">
+            <div class="review">
+              <img src="reviews/1.jpg" alt="[revivew photo]">
+              <h2 class="text-med">Дайана</h2>
+              <p>Ходила на антицеллюлитный массаж. Ушли обьемы, кожа разгладилась, подтянулась. Цены приемлемые! Рекомендую однозначно!</p>
+            </div>
+          </div>
+          <div class="column1-3">
+            <div class="review">
+              <img src="reviews/2.jpg" alt="[revivew photo]">
+              <h2 class="text-med">Сергей</h2>
+              <p>Были проблемы в поясничном отделе, после курса лечения стало в разы лучше, массаж проводят точечно и профессионально, приятная обстановка, играет успокаивающая музыка. Советую, грамотные специалисты.</p>
+            </div>
+          </div>
+          <div class="column1-3">
+            <div class="review">
+              <img src="reviews/3.png" alt="[revivew photo]">
+              <h2 class="text-med">Александра</h2>
+              <p>Прошла курс массажа спины и шеи. В силу профессии мышцы шеи были очень зажатые, было очень много накопленного напряжения, уже после первого массажа, тело стало намного расслабленнее и свободнее… Прекратились боли в пояснице и в области шеи, пропало чувство скованности, самочувствие значительно улучшилось. Спасибо большое!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form center" id="form">
+        <div class="container">
+          <h1 class="header-medium">Заполните форму и получите бесплатную консультацию специалиста</h1>
+            <form method="post">
+              <input type="text" name="name" placeholder="Имя" class="text-small">
+              <input type="email" name="email" required placeholder="Электронная почта" class="text-small">
+              <a href="#form" class="button-order buffer-top-large buffer-bottom">Получить консультацию</a>
+            </form>
+          </div>
+      </div>
+      <div class="footer center">
+        <p>GentleTouch, Massage&SPA, 2023</p>
+      </div>
+    </div>
+  </body>
+</html>

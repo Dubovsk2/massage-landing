@@ -1,0 +1,22 @@
+.advantages {
+  background-color: #c3d4c1;
+  padding-top: 20px;
+}
+
+.advantage {
+  min-width: 200px;
+  margin: 10px auto;
+  padding: auto;
+}
+
+.advantage p {
+  padding: 0 10px;
+}
+
+.advantage .logo {
+  margin-top: 10px;
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+}

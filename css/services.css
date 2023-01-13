@@ -1,0 +1,18 @@
+.services {
+  background-color: #c3d4c1;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.service {
+  margin: auto;
+  padding: auto;
+  height: 230px;
+}
+
+.column1-3 img {
+  width: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
